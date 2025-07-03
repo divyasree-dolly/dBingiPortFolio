@@ -157,11 +157,11 @@ function HeroSection() {
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
                 <span className="text-amber-300 dark:text-yellow-900">Kotlin</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">NestJS</span>
+                <span className="text-amber-300 dark:text-yellow-900">TypeScript</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
                 <span className="text-amber-300 dark:text-yellow-900">MySql</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">Firebasese</span>
+                <span className="text-amber-300 dark:text-yellow-900">Firebase</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
                 <span className="text-amber-300 dark:text-yellow-900">Android Studio</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
