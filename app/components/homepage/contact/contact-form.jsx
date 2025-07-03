@@ -35,11 +35,7 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput
-      );
-
+      const res = await axios.post("/api/contact",userInput);
       toast.success("Message sent successfully!");
       setUserInput({
         name: "",
@@ -64,7 +60,7 @@ function ContactForm() {
           <div className="flex flex-col gap-2">
             <label className="text-base text-[black] dark:text-[white]">Your Name: </label>
             <input
-              className="dark:bg-[#10172d] bg-[white]  w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+              className="dark:bg-[#10172d] bg-[white] text-[black] dark:text-[white]  w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
               type="text"
               maxLength="100"
               required={true}
@@ -77,7 +73,7 @@ function ContactForm() {
           <div className="flex flex-col gap-2">
             <label className="text-base text-[black] dark:text-[white]">Your Email: </label>
             <input
-              className="dark:bg-[#10172d] bg-[white] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+              className="dark:bg-[#10172d] bg-[white] text-[black] dark:text-[white] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
               type="email"
               maxLength="100"
               required={true}
@@ -94,7 +90,7 @@ function ContactForm() {
           <div className="flex flex-col gap-2">
             <label className="text-base text-[black] dark:text-[white]">Your Message: </label>
             <textarea
-              className="dark:bg-[#10172d] bg-[white] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+              className="dark:bg-[#10172d] text-[black] dark:text-[white] bg-[white] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
               maxLength="500"
               name="message"
               required={true}
