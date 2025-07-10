@@ -6,7 +6,7 @@ import Link from "next/link";
 
 
 function Navbar() {
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -65,9 +65,9 @@ function Navbar() {
         {mounted && (
           <button
             className="text-sm px-4 py-2 rounded-md transition-colors duration-300 text-gray-900 dark:text-white hover:text-pink-600 dark:hover:text-pink-300"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          >
-            {theme === "dark" ? "LIGHT" : "DARK"}
+            onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+              >
+            {resolvedTheme === "dark" ? "LIGHT" : "DARK"}
           </button>
         )}
       </div>

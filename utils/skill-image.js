@@ -69,6 +69,12 @@ import tailwind from '../app/assets/svg/skills/tailwind.svg';
 import tensorflow from '../app/assets/svg/skills/tensorflow.svg';
 import typescript from '../app/assets/svg/skills/typescript.svg';
 import unity from '../app/assets/svg/skills/unity.svg';
+import keras from '../app/assets/svg/skills/keras.svg';
+import kaggle from '../app/assets/svg/skills/kaggle.svg';
+import swagger from '../app/assets/svg/skills/swagger.svg';
+import postman from '../app/assets/svg/skills/postman.svg';
+import helm from '../app/assets/svg/skills/helm.svg';
+import elasticsearch from '../app/assets/svg/skills/elasticsearch.svg';
 import vitejs from '../app/assets/svg/skills/vitejs.svg';
 import vue from '../app/assets/svg/skills/vue.svg';
 import vuetifyjs from '../app/assets/svg/skills/vuetifyjs.svg';
@@ -269,6 +275,18 @@ export const skillsImage = (skill) => {
       return junit;
     case 'fortify':
       return fortify;
+    case 'keras':
+      return keras;
+    case 'kaggle':
+      return kaggle;
+    case 'swagger':
+      return swagger;
+    case 'postman':
+      return postman;
+    case 'helm':
+      return helm;
+    case 'elasticsearch':
+      return elasticsearch;
     default:
       break;
   }
