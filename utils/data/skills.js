@@ -1,5 +1,6 @@
 export const skillsData = [
   'Java',
+  'Streamlit',
   'Kotlin',
   'Python',
   'OpenCv',

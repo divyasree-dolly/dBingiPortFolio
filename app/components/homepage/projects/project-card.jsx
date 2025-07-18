@@ -68,6 +68,19 @@ function ProjectCard({ project }) {
           </div>
           <div><span className="text-gray-400 dark:text-gray-600">{`};`}</span></div>
         </code>
+        {/* Add code link button below the code block */}
+        {project.code && (
+          <div className="mt-4 flex justify-end">
+            <a
+              href={project.code}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-blue-500 underline hover:text-blue-700 transition"
+            >
+              View Code
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

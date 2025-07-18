@@ -67,6 +67,7 @@ import svelte from '../app/assets/svg/skills/svelte.svg';
 import swift from '../app/assets/svg/skills/swift.svg';
 import tailwind from '../app/assets/svg/skills/tailwind.svg';
 import tensorflow from '../app/assets/svg/skills/tensorflow.svg';
+import streamlit from '../app/assets/svg/skills/Streamlit.svg';
 import typescript from '../app/assets/svg/skills/typescript.svg';
 import unity from '../app/assets/svg/skills/unity.svg';
 import keras from '../app/assets/svg/skills/keras.svg';
@@ -287,6 +288,8 @@ export const skillsImage = (skill) => {
       return helm;
     case 'elasticsearch':
       return elasticsearch;
+    case 'streamlit':
+      return streamlit;
     default:
       break;
   }
