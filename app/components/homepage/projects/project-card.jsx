@@ -68,9 +68,9 @@ function ProjectCard({ project }) {
           </div>
           <div><span className="text-gray-400 dark:text-gray-600">{`};`}</span></div>
         </code>
-        {/* Add code link button below the code block */}
-        {project.code && (
-          <div className="mt-4 flex justify-end">
+        {/* Add code and demo links below the code block */}
+        <div className="mt-4 flex justify-end gap-4">
+          {project.code && (
             <a
               href={project.code}
               target="_blank"
@@ -79,8 +79,18 @@ function ProjectCard({ project }) {
             >
               View Code
             </a>
-          </div>
-        )}
+          )}
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-green-500 dark:text-green-700 underline hover:text-green-700 transition"
+            >
+              Live Demo
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

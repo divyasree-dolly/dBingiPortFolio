@@ -14,7 +14,6 @@ export const skillsData = [
   'Angular',
   'React',
   'Docker',
-  'Helm',
   'Elasticsearch',
   'Kubernetes',
   'MySQL',

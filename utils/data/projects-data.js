@@ -6,7 +6,7 @@ export const projectsData = [
         tools: ['Python', 'Streamlit', 'OpenAI API', 'PyPDF2', 'python-docx', 'Git','OpenAI GPT-4', 'NLP', 'REST API'],
         role: 'AI Developer',
         code: 'https://github.com/divyasree-dolly/Smart-Resume-Cover-Letter-Generator',
-        demo: '',
+        demo: 'https://resume-enhancement-tool.streamlit.app/',
     },
     {
         id: 2,
