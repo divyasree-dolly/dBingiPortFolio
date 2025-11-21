@@ -7,7 +7,7 @@ export const personalData = {
   phone: '+1(682)-377-2589',
   address: 'Texas, United States ',
   github: 'https://github.com/divyasree-dolly',
-  linkedIn: 'https://www.linkedin.com/in/divya-sree-5720a1158/',
+  linkedIn: 'https://www.linkedin.com/in/divyasree-bingi-5720a1158/',
   discord: 'https://discord.com/users/divyasree.dolly4494',
   hackerRank: 'https://www.hackerrank.com/profile/15H61A05C9',
   leetcode: "https://leetcode.com/u/dbingi/",
