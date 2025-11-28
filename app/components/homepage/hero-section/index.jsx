@@ -147,27 +147,27 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white dark:text-red-500">skills:</span>
                 <span className="text-gray-400 dark:text-gray-600">{`['`}</span>
+                <span className="text-amber-300 dark:text-yellow-900">Python</span>
+                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
                 <span className="text-amber-300 dark:text-yellow-900">Java</span>
+                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
+                <span className="text-amber-300 dark:text-yellow-900">LangChain</span>
+                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
+                <span className="text-amber-300 dark:text-yellow-900">OpenAI API</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
                 <span className="text-amber-300 dark:text-yellow-900">React</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">NextJS</span>
+                <span className="text-amber-300 dark:text-yellow-900">Node.js</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">Angular</span>
-                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">Kotlin</span>
-                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">TypeScript</span>
-                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">MySql</span>
-                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">Firebase</span>
-                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">Android Studio</span>
+                <span className="text-amber-300 dark:text-yellow-900">AWS</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
                 <span className="text-amber-300 dark:text-yellow-900">Docker</span>
                 <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
-                <span className="text-amber-300 dark:text-yellow-900">AWS</span>
+                <span className="text-amber-300 dark:text-yellow-900">Android Studio</span>
+                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
+                <span className="text-amber-300 dark:text-yellow-900">SQL</span>
+                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
+                <span className="text-amber-300 dark:text-yellow-900">Firebase</span>
                 <span className="text-gray-400 dark:text-gray-600">{"'],"}</span>
               </div>
               <div>
@@ -184,6 +184,18 @@ function HeroSection() {
                 <span className="ml-4 lg:ml-8 mr-2 text-white dark:text-red-500">problemSolver:</span>
                 <span className="text-orange-400 dark:text-blue-900">true</span>
                 <span className="text-gray-400 dark:text-gray-600">,</span>
+              </div>
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className=" text-white dark:text-red-500">focusAreas:</span>
+                <span className="text-gray-400 dark:text-gray-600">{`['`}</span>
+                <span className="text-amber-300 dark:text-yellow-900">LLM Evaluation</span>
+                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
+                <span className="text-amber-300 dark:text-yellow-900">Prompt Engineering</span>
+                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
+                <span className="text-amber-300 dark:text-yellow-900">RAG Pipelines</span>
+                <span className="text-gray-400 dark:text-gray-600">{"', '"}</span>
+                <span className="text-amber-300 dark:text-yellow-900">Cloud Automation</span>
+                <span className="text-gray-400 dark:text-gray-600">{"'],"}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-green-600">hireable:</span>

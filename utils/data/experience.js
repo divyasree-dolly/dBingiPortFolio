@@ -1,13 +1,13 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Full Stack Developer',
+    title: 'Full Stack Developer - AI Automation',
     company: "BNY Mellon (Contract)",
     duration: "(Mar 2025 - Present)"
   },{
 
     id: 2,
-    title: 'Developer',
+    title: 'AI Developer',
     company: "BrightMind Enrichment and Schooling",
     duration: "(Aug 2024 - July 2025)"
   },

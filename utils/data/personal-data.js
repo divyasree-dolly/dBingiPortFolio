@@ -1,8 +1,8 @@
 export const personalData = {
   name: "DIVYASREE ",
   profile: '/profile.png',
-  designation: "Software Developer",
-  description: "I'm Divyasree Bingi, a passionate and enthusiastic software developer. I am a quick learner with a strong self-learning attitude and a love for exploring new technologies. Problem-solving excites me, and I enjoy working across all areas of web and mobile application development to help make technology more accessible. My core skills are in Java and JavaScript, and I enjoy building solutions using JavaScript on the frontend and Java on the backend. I am AWS certified, have completed my master's degree at UTA, and am currently working as a full stack app developer. I am open to job opportunities that match my skills and interests.",
+  designation: "AI-Focused Software Developer",
+  description: "I’m Divyasree Bingi, an AI-focused Full Stack Developer passionate about building scalable backend systems and intelligent applications. I specialize in LLM evaluation, RAG pipelines, and prompt engineering using OpenAI API, LangChain, and Python. With experience across AWS, Docker, and React, I bridge AI innovation with robust engineering practices.",
   email: 'bingi.divyasree@gmail.com',
   phone: '+1(682)-377-2589',
   address: 'Texas, United States ',
@@ -11,5 +11,5 @@ export const personalData = {
   discord: 'https://discord.com/users/divyasree.dolly4494',
   hackerRank: 'https://www.hackerrank.com/profile/15H61A05C9',
   leetcode: "https://leetcode.com/u/dbingi/",
-  resume: "https://docs.google.com/document/d/1y5d6f5oq5QyTrA4G48sIrns-hY3w3MaaHNLbzX9ezjw/edit?usp=sharing",
+  resume: "https://docs.google.com/document/d/1YnkCcGBmActl7leg5JzvalkVU269HANv4vgy9RbcCkc/edit?usp=sharing",
 }
